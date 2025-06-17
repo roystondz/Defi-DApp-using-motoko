@@ -6,3 +6,18 @@ dfx canister id dbank
 http://127.0.0.1:8000/?canisterId=r7inp-6aaaa-aaaaa-aaabq-cai&id=rrkah-fqaaa-aaaaa-aaaaq-cai
 
 ```
+
+fix this in webpack.config.js
+devServer: {
+    proxy: [
+      {
+        context: ["/api"],
+        target: "http://localhost:8000",
+        changeOrigin: true,
+        pathRewrite: { "^/api": "/api" },
+      },
+    ],
+    hot: true,
+    watchFiles: [path.resolve(__dirname, "src", frontendDirectory)],
+    liveReload: true,
+  },

@@ -4,7 +4,7 @@ import Float "mo:base/Float";
 import Nat "mo:base/Nat";
 
 actor DBank {
-  stable var currentValue :Float = 300;
+  stable var currentValue : Float = 300;
   //currentValue := 100;
   stable var startTime = Time.now();
   //Debug.print("DBank actor initialized at " # debug_show(startTime));
