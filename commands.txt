@@ -1,0 +1,8 @@
+```bash
+dfx canister id __Candid_UI
+
+dfx canister id dbank
+
+http://127.0.0.1:8000/?canisterId=r7inp-6aaaa-aaaaa-aaabq-cai&id=rrkah-fqaaa-aaaaa-aaaaq-cai
+
+```
