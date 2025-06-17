@@ -29,8 +29,8 @@ actor DBank {
     Debug.print(debug_show(currentValue)); // This will print the updated value of currentValue to
   };
 
-  public query func checkBalance() :async  Float{
-    Debug.print(debug_show(currentValue)); 
+ 
+  public query func checkBalance() : async  Float{
     return currentValue;
   };
 
