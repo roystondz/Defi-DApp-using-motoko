@@ -1,7 +1,3 @@
-Sure! Here's a clear, simple, and well-structured README template for your **dbank** project, including prerequisites, setup instructions, how to run, and the webpack proxy fix you mentioned.
-
----
-
 # DBank — Decentralized Bank on Internet Computer
 
 ## Overview

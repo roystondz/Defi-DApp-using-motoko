@@ -1,7 +1,3 @@
-Got it! Here's a clear, simple README snippet that explains those commands and how to use them in your DBank project context:
-
----
-
 ## Getting Canister IDs and Accessing the App
 
 When you deploy your canisters using DFX, each canister is assigned a unique **Canister ID**. You need these IDs to interact with your canisters through URLs or from your frontend code.
